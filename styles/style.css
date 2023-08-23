@@ -16,15 +16,6 @@ body {
     column-count: 1;
 }
 
-@media (max-width: 1920px) {
-    body {
-        width: 600px;
-    }
-    .columns {
-        column-count: 2;
-    }
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #060606;
@@ -78,4 +69,21 @@ li {
 
 a {
     color: #00694E;
+}
+
+
+@media (max-width: 1920px) {
+    body {
+        width: 600px;
+    }
+    .columns {
+        column-count: 2;
+    }
+    .topnav {
+        width: 100%;
+        left: 0;
+    }
+    h1 {
+        font-size: 20px;
+    }
 }
