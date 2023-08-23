@@ -13,9 +13,10 @@ body {
     border: 5px solid black;
 }
 
-@media (width < 1920px) {
+@media (max-width: 1920px) {
     body {
         width: 800px;
+        column-count: 2;
     }
 }
 
