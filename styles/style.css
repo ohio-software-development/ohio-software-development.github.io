@@ -12,10 +12,13 @@ body {
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
+.columns {
+    column-count: 1;
+}
 
 @media (max-width: 1920px) {
     body {
-        width: 800px;
+        width: 600px;
     }
     .columns {
         column-count: 2;
