@@ -7,10 +7,16 @@ html {
 
 body {
     width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     background-color: #121212;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+}
+
+@media (max-width: 80rem) {
+    body {
+        width: 800px;
+    }
 }
 
 /* Add a black background color to the top navigation */
