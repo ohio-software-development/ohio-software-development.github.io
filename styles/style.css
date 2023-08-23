@@ -13,7 +13,7 @@ body {
     border: 5px solid black;
 }
 
-@media (width < 6in) {
+@media (width < 1080px) {
     body {
         width: 800px;
     }
