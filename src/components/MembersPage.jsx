@@ -6,7 +6,7 @@ import jude_avatar from "../assets/jude_avatar.jpeg";
 import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
-
+import drew_avatar from "../assets/drew_avatar.jpg";
 /**
  * TO ADD A MEMBER
  * Please add your information to the membersRowData, and make sure to not have more than 4 users in a row.
@@ -61,10 +61,10 @@ const membersRowTwoData = [
   },
   {
     "id": 2,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
-    "avatar": "avatar goes here",
+    "name": "Drew Tumblin",
+    "role": "Member",
+    "github": "https://github.com/tumblinx",
+    "avatar": drew_avatar
 
   },
   {
