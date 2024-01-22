@@ -6,6 +6,7 @@ import jude_avatar from "../assets/jude_avatar.jpeg";
 import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
+import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 
 /**
  * TO ADD A MEMBER
@@ -80,7 +81,7 @@ const membersRowTwoData = [
     "name": "MonadoBarrage",
     "role": "Member",
     "github": "https://github.com/MonadoBarrage",
-    "avatar": "avatar goes here",
+    "avatar": monadobarrage_avatar,
 
   },
   {
