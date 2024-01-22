@@ -36,7 +36,7 @@ const membersRowOneData = [
   {
     "id": 3,
     "name": "Nathan Fout",
-    "role": "Shit at web dev",
+    "role": "Member?",
     "github": "https://github.com/Nathan208619",
     "avatar": nathan_avatar,
 
