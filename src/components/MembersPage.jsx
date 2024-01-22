@@ -5,6 +5,7 @@ import brady_avatar from "../assets/brady_avatar.jpeg";
 import jude_avatar from "../assets/jude_avatar.jpeg";
 import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
+import owen_avatar from "../assets/owen.png";
 
 /**
  * TO ADD A MEMBER
@@ -81,7 +82,14 @@ const membersRowTwoData = [
     "github": "https://github.com/MonadoBarrage",
     "avatar": "avatar goes here",
 
-  }
+  },
+  {
+    "id": 5,
+    "name": "Owen Turnbull",
+    "role": "Member",
+    "github": "https://github.com/SoahLi",
+    "avatar": owen_avatar,
+  },
   // Add more members as needed
 ];
 
