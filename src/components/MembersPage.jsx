@@ -7,6 +7,9 @@ import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
 import drew_avatar from "../assets/drew_avatar.jpg";
+import eric_avatar from "..assets/eric.jpeg";
+import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
+
 /**
  * TO ADD A MEMBER
  * Please add your information to the membersRowData, and make sure to not have more than 4 users in a row.
@@ -36,7 +39,7 @@ const membersRowOneData = [
   {
     "id": 3,
     "name": "Nathan Fout",
-    "role": "Shit at web dev",
+    "role": "Member?",
     "github": "https://github.com/Nathan208619",
     "avatar": nathan_avatar,
 
@@ -44,7 +47,7 @@ const membersRowOneData = [
   {
     "id": 4,
     "name": "Alex Bikowski",
-    "role": "Treasures & hung",
+    "role": "Treasurer (hung like a horse)",
     "github": "https://github.com/AlexBikowski20",
     "avatar": alex_avatar,
   }
@@ -54,41 +57,40 @@ const membersRowOneData = [
 const membersRowTwoData = [
   {
     "id": 1,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
+    "name": "Josh Marusek",
+    "role": "Member",
+    "github": "https://github.com/sustainmain",
     "avatar": "avatar goes here",
   },
   {
     "id": 2,
-    "name": "Drew Tumblin",
-    "role": "Member",
-    "github": "https://github.com/tumblinx",
-    "avatar": drew_avatar
+    "name": "Eric Jurina",
+    "role": "Jack Of All Trades Developer",
+    "github": "https://github.com/EJ0258",
+    "avatar": eric_avatar,
 
   },
   {
     "id": 3,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
-    "avatar": "avatar goes here",
+    "name": "MonadoBarrage",
+    "role": "Member",
+    "github": "https://github.com/MonadoBarrage",
+    "avatar": monadobarrage_avatar,
 
   },
   {
     "id": 4,
-    "name": "MonadoBarrage",
-    "role": "Member",
-    "github": "https://github.com/MonadoBarrage",
-    "avatar": "avatar goes here",
-
-  },
-  {
-    "id": 5,
     "name": "Owen Turnbull",
     "role": "Member",
     "github": "https://github.com/SoahLi",
     "avatar": owen_avatar,
+  },
+  {
+    "id": 5,
+    "name": "Drew Tumblin",
+    "role": "Member",
+    "github": "https://github.com/tumblinx",
+    "avatar": drew_avatar,
   },
   // Add more members as needed
 ];
