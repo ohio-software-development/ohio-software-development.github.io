@@ -9,12 +9,15 @@ import garduino from "../assets/garduino.png";
 import tic80 from "../assets/tic80.png";
 import fitness from "../assets/fitness.png";
 import calculator from "../assets/calculator.png";
+import oucare from "../assets/oucare.png";
+import googleTUI from "../assets/googleTui.png";
+import socialTUI from "../assets/socialTui.png";
 
 const projectsData = [
   {
     id: 1,
     title: 'Mobile Jewelry App',
-    description: 'This project was done in collaboration with ColorTheoryVintage, a small business out of Columbus Ohio, to make a jewelry resale platform for small businesses. The developers used ReactNative for the front-end and Firebase for the backend. Capabilities include fully functional texting system, image capturing and uploading to the server, user profile customization, user account authentication, and browsing products.',
+    description: 'This project was done in collaboration with ColorTheoryVintage, a small business out of Columbus Ohio, to make a jewelry resale platform for small businesses. The developers used ReactNative and Firebase. Capabilities include texting system, uploading products, and more.',
     image: colortheory, 
     contributors:"SoahLi & BP-2",
     repo: "https://github.com/ohio-software-development/Color-Theory-Vintage",
@@ -92,9 +95,41 @@ const currentProjectsData = [
   // Add more projects as needed
 ];
 
+const pastProjectsData = [
+  {
+    id: 1,
+    title: 'OUCare',
+    description: 'OUCare was a project submitted for a Hackathon that centered around healthcare accessibility on college campuses. The project went through several iterations, using React and Vew for front-end. It also used a Twilio text bot client, OpenStreetMaps API, Google Maps API, and more.',
+    image: oucare, 
+    contributors:"BP-2, jude-shreffler, and GLYurek3",
+    repo: "https://github.com/ohio-software-development/OUCare",
+  },
+  {
+    id: 2,
+    title: 'Social Media TUI',
+    description: 'This project created an interface for a social media run through the terminal. This was created using Rust.',
+    image: socialTUI, 
+    contributors:"BP-2 and jude-shreffler",
+    repo: "https://github.com/ohio-software-development/Fitness-Watch-App",
+  },
+  {
+    id: 3,
+    title: 'GSuite TUI',
+    description: 'This project used Rust and Python to create a terminal user interface for the Google suite. This allowed users to utilize the google suite from their terminal. This included reading and writing emails, checking calendars, and more.',
+    image: googleTUI, // Add the image file name or URL
+    contributors: "BP-2, MonadoBarrage, Alex Bikowski, and PrestonRembis",
+    repo: "https://github.com/ohio-software-development",
+  },
+  
+
+  // Add more projects as needed
+];
+
 const ProjectsPage = () => {
   const [fallProjectIndex, setFallProjectIndex] = useState(0);
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+  const [pastProjectIndex, setPastProjectIndex] = useState(0);
+
 
 
   const handleFallNextProject = () => {
@@ -103,9 +138,14 @@ const ProjectsPage = () => {
   const handleCurrentNextProject = () => {
     setCurrentProjectIndex((prevIndex) => (prevIndex + 1) % currentProjectsData.length);
   };
+  const handlePastProject = () => {
+    setPastProjectIndex((prevIndex) => (prevIndex + 1) % pastProjectsData.length);
+  };
 
   const project = projectsData[fallProjectIndex];
   const currentProject = currentProjectsData[currentProjectIndex];
+  const pastProject = pastProjectsData[pastProjectIndex];
+
 
 
   return (
@@ -132,7 +172,16 @@ const ProjectsPage = () => {
         </a>
       <button onClick={handleCurrentNextProject}>Next Project</button>
 
+      <br/>
       <h2 className='past'>Past Projects</h2>
+      <h2>{pastProject.title}</h2>
+      <img className='project_snapshot' src={pastProject.image} alt={`${pastProject.title}`} />
+      <p className='description'>{pastProject.description}</p>
+      <p>Contributors: {pastProject.contributors}</p>
+      <a href={pastProject.repo} target="_blank" rel="noopener noreferrer">
+          <button className="github-btn">GitHub Repo</button>
+        </a>
+      <button onClick={handlePastProject}>Next Project</button>
 
     </div>
   );
