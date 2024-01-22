@@ -76,9 +76,9 @@ const membersRowTwoData = [
   },
   {
     "id": 4,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
+    "name": "MonadoBarrage",
+    "role": "Member",
+    "github": "https://github.com/MonadoBarrage",
     "avatar": "avatar goes here",
 
   }
