@@ -8,7 +8,9 @@
     text-align: center;
 
   }
-  
+  .full-page{
+    height: 1300px;
+  }
   .member-cards {
     display: flex;
     flex-wrap: wrap;

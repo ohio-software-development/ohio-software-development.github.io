@@ -50,6 +50,7 @@ const HomePage = () => {
           width="600"
           height="450"
           loading="lazy"
+          frameBorder="0"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </section>

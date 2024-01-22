@@ -93,10 +93,11 @@ const MembersPage = () => {
   return (
     <div>
       <Navbar />
-      <div>
+      <div className="full-page">
         <div className="members-page">
           <h1>Members Page</h1>
         </div>
+
         <div className="member-cards">
           {members.map((member) => (
             <div key={member.id} className="member-card">
