@@ -6,6 +6,8 @@ import jude_avatar from "../assets/jude_avatar.jpeg";
 import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
+
+import eric_avatar from "..assets/eric.jpeg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 
 /**
@@ -70,10 +72,10 @@ const membersRowTwoData = [
   },
   {
     "id": 3,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
-    "avatar": "avatar goes here",
+    "name": "Eric Jurina",
+    "role": "Jack Of All Trades Developer",
+    "github": "https://github.com/EJ0258",
+    "avatar": eric_avatar,
 
   },
   {
