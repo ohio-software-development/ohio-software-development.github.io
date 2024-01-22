@@ -57,21 +57,13 @@ const membersRowOneData = [
 const membersRowTwoData = [
   {
     "id": 1,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
+    "name": "Josh Marusek",
+    "role": "Member",
+    "github": "https://github.com/sustainmain",
     "avatar": "avatar goes here",
   },
   {
     "id": 2,
-    "name": "Your Name",
-    "role": "Role",
-    "github": "https://github.com/the_hub",
-    "avatar": "avatar goes here",
-
-  },
-  {
-    "id": 3,
     "name": "Eric Jurina",
     "role": "Jack Of All Trades Developer",
     "github": "https://github.com/EJ0258",
@@ -79,7 +71,7 @@ const membersRowTwoData = [
 
   },
   {
-    "id": 4,
+    "id": 3,
     "name": "MonadoBarrage",
     "role": "Member",
     "github": "https://github.com/MonadoBarrage",
@@ -87,7 +79,7 @@ const membersRowTwoData = [
 
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Owen Turnbull",
     "role": "Member",
     "github": "https://github.com/SoahLi",
