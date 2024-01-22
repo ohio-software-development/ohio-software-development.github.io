@@ -44,7 +44,7 @@ const membersRowOneData = [
   {
     "id": 4,
     "name": "Alex Bikowski",
-    "role": "Treasures & hung",
+    "role": "Treasurer (hung like a horse)",
     "github": "https://github.com/AlexBikowski20",
     "avatar": alex_avatar,
   }
