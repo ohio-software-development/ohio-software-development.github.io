@@ -7,7 +7,7 @@ import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
 import drew_avatar from "../assets/drew_avatar.jpg";
-import eric_avatar from "..assets/eric.jpeg";
+import eric_avatar from "../assets/eric.jpeg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 import josh_avatar from "../assets/josh.jpeg";
 
