@@ -8,6 +8,7 @@ import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
 import drew_avatar from "../assets/drew_avatar.jpg";
 import eric_avatar from "../assets/eric.jpeg";
+import jansen_avatar from "..assets/jansen.jpg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 import josh_avatar from "../assets/josh.jpeg";
 
@@ -92,6 +93,13 @@ const membersRowTwoData = [
     "role": "Member",
     "github": "https://github.com/tumblinx",
     "avatar": drew_avatar,
+  },
+  {
+    "id": 6,
+    "name": "Jansen Craft",
+    "role": "Faculty Consult",
+    "github": "https://github.com/jansen-craft",
+    "avatar": jansen_avatar,
   },
   // Add more members as needed
 ];
