@@ -10,6 +10,7 @@ import drew_avatar from "../assets/drew_avatar.jpg";
 import eric_avatar from "../assets/eric.jpeg";
 import jansen_avatar from "..assets/jansen.jpg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
+import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 
 /**
@@ -100,6 +101,13 @@ const membersRowTwoData = [
     "role": "Faculty Consult",
     "github": "https://github.com/jansen-craft",
     "avatar": jansen_avatar,
+  },
+  {
+    "id": 7,
+    "name": "Owen Salyer",
+    "role": "Member",
+    "github": "https://github.com/osalyer02",
+    "avatar": owensal_avatar,
   },
   // Add more members as needed
 ];
