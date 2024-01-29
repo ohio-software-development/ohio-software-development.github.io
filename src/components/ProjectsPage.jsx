@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./NavBar";
 import "./ProjectsPage.css";
-import colortheory from "../assets/color_theory.png";
+import colortheory from "../assets/CTF.png";
 import bobcatCoin from "../assets/bobcat_coin.jpeg";
 import plexServer from "../assets/plex_server.png";
 import clubRebrand from "../assets/club_rebrand.png";
