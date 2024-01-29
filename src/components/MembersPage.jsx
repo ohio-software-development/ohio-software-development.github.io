@@ -11,6 +11,7 @@ import eric_avatar from "../assets/eric.jpeg";
 import jansen_avatar from "..assets/jansen.jpg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 import josh_avatar from "../assets/josh.jpeg";
+import brendan_avatar from "../assets/Brendan_Smyers.jpg"
 
 /**
  * TO ADD A MEMBER
@@ -87,15 +88,26 @@ const membersRowTwoData = [
     "github": "https://github.com/SoahLi",
     "avatar": owen_avatar,
   },
+  // Add more members as needed
+];
+
+const membersRowThreeData = [
   {
-    "id": 5,
+    "id": 1,
+    "name": "Brendan Smyers",
+    "role": "Member",
+    "github": "https://github.com/b-smyers",
+    "avatar": brendan_avatar
+  },
+  {
+    "id": 2,
     "name": "Drew Tumblin",
     "role": "Member",
     "github": "https://github.com/tumblinx",
     "avatar": drew_avatar,
   },
   {
-    "id": 6,
+    "id": 3,
     "name": "Jansen Craft",
     "role": "Faculty Consult",
     "github": "https://github.com/jansen-craft",
@@ -107,6 +119,7 @@ const membersRowTwoData = [
 const MembersPage = () => {
   const [members, setMembers] = useState(membersRowOneData);
   const [membersTwo, setMembersTwo] = useState(membersRowTwoData);
+  const [membersThree, setMembersThree] = useState(membersRowThreeData)
 
 
   return (
@@ -133,6 +146,20 @@ const MembersPage = () => {
         </div>
         <div className="member-cards">
           {membersTwo.map((member) => (
+            <div key={member.id} className="member-card">
+              <img src={member.avatar} alt={`${member.name}'s avatar`} />
+              <div>
+                <h3 className="member-card-header">{member.name}</h3>
+                <p>{member.role}</p>
+                <a href={member.github} target="_blank" rel="noopener noreferrer">
+                  GitHub Profile
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="member-cards">
+          {membersThree.map((member) => (
             <div key={member.id} className="member-card">
               <img src={member.avatar} alt={`${member.name}'s avatar`} />
               <div>
