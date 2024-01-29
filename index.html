@@ -1,43 +1,13 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link href="styles/style.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="images/club-logo.png" />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="src/assets/club-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OUSDC</title>
   </head>
   <body>
-    <div class="topnav">
-      <a class="active" href="index.html">Home</a>
-      <a href="current-projects.html">Current Projects</a>
-      <a href="past-projects.html">Past Projects</a>
-      <a href="members.html">Members</a>
-      <a href="contact.html">Contact</a>
-    </div>
-
-    <h1>Ohio University Software Development Club</h1>
-
-    <img width="200" height="200" src="images/club-logo.png" alt="OUSDC logo: Black streams of code on a green circle. White text within the streams says 'Ohio University Software Development Club'." />
-    <div class="columns">
-      <p>Check out our <a href="https://github.com/ohio-software-development">GitHub</a>!<br>Join our <a href="https://groupme.com/join_group/90280088/Dn3xfp80">Groupme</a> to get involved!<br>We hold a weekly meeting on Mondays at 6pm in the ARC. Stop by and get involved with some of our projects!</p>
-
-      <p>The Ohio University Software Development Club provides a space for students to collaborate in an organized manner and work on projects relating to Software Development.  We aim to have groups of students work together in teams and mimic workplace style development.  The club will assist in organizing the teams and learning both hard and soft skills.  It will also give students a platform to publish their applications and receive recognition/profits from their application (if profitable).</p>
-
-      <p>Some highlighted projects...</p>
-      <ul>
-        <li>Mobile App solutions with local business <a href = "https://www.colortheoryvintage.com/">Color Theory Vintage</a>.</li>
-        <li>Student healthcare web application for Ohio University students. (Collaborating with multiple universities to bring access to more student across the United States).</li>
-        <li><a href = "https://github.com/ohio-software-development/RustGoogleTUI">Google TUI using Rust & Python</a></li>
-      </ul>
-      <p>With more on our radar! </p>
-      
-      <canvas id="radar" width="300" height="300" >Goofy radar gag. There's a poorly animated JS radar that is blipping potential projects.</canvas>
-
-      <script src="scripts/main.js"></script>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

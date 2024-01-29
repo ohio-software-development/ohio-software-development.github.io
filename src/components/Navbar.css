@@ -1,0 +1,46 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, hsl(200 100% 60%),  hsl(100 100% 60%)) fixed;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 10px 20px; /* Adjusted padding for more spacing */
+  transition: background 0.3s ease; /* Smooth transition for background color */
+}
+
+a:hover {
+  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.1); /* Light background on hover */
+}
+
+/* Styling for active link */
+a.active {
+  text-decoration: underline;
+  background: rgba(255, 255, 255, 0.2); /* Slightly darker background for active link */
+}

@@ -1,0 +1,74 @@
+/* src/components/ProjectsPage.css */
+
+.projects-page {
+    text-align: center;
+    padding: 20px;
+  }
+  .fall {
+    background: radial-gradient(hsl(360 100% 60%), hsl(30 100% 60%)) fixed;
+    background: conic-gradient(hsl(350 100% 60%), hsl(30 100% 60%), hsl(360 100% 60%)) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top:10%;
+  }
+
+  .current {
+        background: radial-gradient(hsl(100 100% 60%), hsl(200 100% 60%)) fixed;
+        background: conic-gradient(hsl(100 100% 60%), hsl(200 100% 60%), hsl(100 100% 60%)) fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-align: center;
+  }
+  .past {
+    background: radial-gradient(hsl(300 100% 60%), hsl(200 80% 60%)) fixed;
+    background: conic-gradient(hsl(300 100% 60%), hsl(200 80% 60%), hsl(300 100% 60%)) fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .description{
+    max-width: 700px;
+    height: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .project_snapshot{
+    width: 800px;
+    height:400px;
+  }
+
+
+button.github-btn {
+    background-color: #f57c00;
+}
