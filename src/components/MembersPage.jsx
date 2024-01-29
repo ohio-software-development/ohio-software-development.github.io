@@ -7,10 +7,11 @@ import nathan_avatar from "../assets/nathan_avatar.jpeg";
 import alex_avatar from "../assets/alex_avatar.jpeg";
 import owen_avatar from "../assets/owen.png";
 import drew_avatar from "../assets/drew_avatar.jpg";
-import eric_avatar from "..assets/eric.jpeg";
+import eric_avatar from "../assets/eric.jpeg";
 import jansen_avatar from "..assets/jansen.jpg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 import owensal_avatar from "../assets/owens.jpg";
+import josh_avatar from "../assets/josh.jpeg";
 
 /**
  * TO ADD A MEMBER
@@ -62,7 +63,7 @@ const membersRowTwoData = [
     "name": "Josh Marusek",
     "role": "Member",
     "github": "https://github.com/sustainmain",
-    "avatar": "avatar goes here",
+    "avatar": josh_avatar,
   },
   {
     "id": 2,
