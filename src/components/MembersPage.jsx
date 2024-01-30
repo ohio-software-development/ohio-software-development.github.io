@@ -12,7 +12,7 @@ import jansen_avatar from "../assets/jansen.jpg";
 import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
-import brendan_avatar from "../assets/Brendan_Smyers.jpg"
+import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 
 /**
  * TO ADD A MEMBER
