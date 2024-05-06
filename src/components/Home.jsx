@@ -33,6 +33,7 @@ const HomePage = () => {
           <p>Meeting Times: Every Monday from 6:00pm-7:00pm</p>
         </div>
 
+        <div className = "visibleDesktop">
         {/* Embedded Google Map */}
         <iframe
           title="OUSDC Meeting Location"
@@ -53,6 +54,29 @@ const HomePage = () => {
           frameBorder="0"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        </div>
+        <div className = "visibleMobile">
+        {/* Embedded Google Map */}
+        <iframe
+          title="OUSDC Meeting Location"
+          width="350"
+          height="250"
+          frameBorder="0"
+          style={{ border: "0" }}
+          src="https://www.google.com/maps/embed/v1/place?q=Ohio+University+Academic+Research+Center&key=AIzaSyA_ChWhDLaJM5WCthdzb31r5pq5qfkvw7E"
+          allowFullScreen
+        ></iframe>
+
+        {/* Embedded Google Street View */}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1705943406704!6m8!1m7!1smd5mmTGYMajXY1m6iM0H-g!2m2!1d39.32677817248244!2d-82.10548010423148!3f253.30882!4f0!5f0.7820865974627469"
+          width="350"
+          height="250"
+          loading="lazy"
+          frameBorder="0"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        </div>
       </section>
     </div>
   );
