@@ -90,7 +90,7 @@ article {
   }
 
 
-.visibledMobile {display:none;}
+.visibleMobile {display:none;}
 .visibleDesktop {display:block}
 
 @media (max-width : 500px) {
