@@ -27,7 +27,7 @@ const HomePage = () => {
           </p>
           <p>
             Connect on Discord:{" "}
-            <a href="https://discord.gg/fdzP96UC">Discord</a>
+            <a href="https://discord.gg/zAXzaNkx">Discord</a>
           </p>
           <p>Meeting Location: ARC 221</p>
           <p>Meeting Times: Every Monday from 6:00pm-7:00pm</p>

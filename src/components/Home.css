@@ -3,12 +3,12 @@ article {
     background: radial-gradient(
       hsl(100 100% 60%), 
       hsl(200 100% 60%) 
-    ) fixed;
+    );
     background: conic-gradient(
       hsl(100 100% 60%), 
       hsl(200 100% 60%), 
       hsl(100 100% 60%) 
-    ) fixed;
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -57,16 +57,23 @@ article {
     text-align: center;
   }
   .contact-section {
-    background: radial-gradient(hsl(100 100% 60%), hsl(200 100% 60%)) fixed;
-    background: conic-gradient(hsl(100 100% 60%), hsl(200 100% 60%), hsl(100 100% 60%)) fixed;
+    background: radial-gradient(hsl(100 100% 60%), hsl(200 100% 60%));
+    background: conic-gradient(hsl(100 100% 60%), hsl(200 100% 60%), hsl(100 100% 60%)) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-    padding: 40px; /* Adjusted padding for better spacing */
+    padding: 40px; 
   }
-  
-  .contact-section {
-    margin-top: 40px; /* Add margin for separation */
+
+  .contact-info {
+    background: radial-gradient(hsl(100 100% 60%), hsl(200 100% 60%));
+    background: conic-gradient(hsl(100 100% 60%), hsl(200 100% 60%), hsl(100 100% 60%)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 40px; 
+    margin-top: 40px; 
+    padding-bottom: 40px;
   }
   
   address {
