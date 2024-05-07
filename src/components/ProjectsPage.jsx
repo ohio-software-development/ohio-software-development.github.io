@@ -230,7 +230,7 @@ const ProjectsPage = () => {
   return (
     <div className="projects-page">
       <Navbar />
-      <h2 className="spring">Spring 2023 Highlights</h2>
+      <h2 className="spring">Spring 2024 Highlights</h2>
       <h2>{springProject.title}</h2>
       <img
         className="project_snapshot"
