@@ -13,6 +13,10 @@ import oucare from "../assets/oucare.png";
 import googleTUI from "../assets/googleTui.png";
 import socialTUI from "../assets/socialTui.png";
 import styled from 'styled-components';
+import openAY from "../assets/openAY.png";
+import localMarket from "../assets/localMarket.jpeg";
+import clubSite from "../assets/clubSite.png";
+import rbx from "../assets/rbx.jpeg";
 
 const StyledList = styled.ul`
   list-style-type: none;
@@ -81,6 +85,45 @@ const projectsData = [
   // Add more projects as needed
 ];
 
+const springProjects = [
+  {
+  id: 1,
+  title: "Open Web AY",
+  description:
+    "This tool is designed to be an open source alternative to web accessibility. The tool is a free option largely aimed at underrepresented portions of the internet (solo developers, small businesses, etc), who want a lightweight, free, and customizable option. This project was started as a solo submission to BlossomHack 2024 and won \"Best Overall\". It currently has around 2,000 downloads.",
+  image: openAY,
+  contributors: "BP-2",
+  repo: "https://github.com/BP-2/OpenWebAY",
+},
+{
+  id: 2,
+  title: "Local Market, Athens",
+  description:
+    "Project launched to combine online shopping with small businesses. The project creates an online shop for all local Athens goods that users can shop at similar to an Amazon. The site aims to compete with Amazon and Walmart while giving the power to small businesses.",
+  image: localMarket,
+  contributors: "BP-2",
+  repo: "https://github.com/ohio-software-development/LocalMarket/tree/brady",
+},
+{
+  id: 3,
+  title: "Club Website Remodel",
+  description:
+    "Rebranded and revitalized club website.",
+  image: clubSite, 
+  contributors: "BP-2 & others",
+  repo: "https://github.com/ohio-software-development/ohio-software-development.github.io",
+},
+{
+  id: 4,
+  title: "Roblox Game Jam",
+  description:
+    "Game jam focused on introduction to game design fundamentals and Lua scripting through Roblox Studio. Three games were created and posted on Roblox servers.",
+  image: rbx, // Add the image file name or URL
+  contributors: "Hosted by b-smyers",
+  repo: "https://github.com/ohio-software-development/ClubWebsite",
+},
+
+];
 const currentProjectsData = [
   {
     id: 1,
@@ -156,11 +199,16 @@ const pastProjectsData = [
 
 const ProjectsPage = () => {
   const [fallProjectIndex, setFallProjectIndex] = useState(0);
+  const [springProjectIndex, setSpringProjectIndex] = useState(0);
+
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
   const [pastProjectIndex, setPastProjectIndex] = useState(0);
 
   const handleFallNextProject = () => {
     setFallProjectIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
+  };
+  const handleSpringNextProject = () => {
+    setSpringProjectIndex((prevIndex) => (prevIndex + 1) % springProjects.length);
   };
   const handleCurrentNextProject = () => {
     setCurrentProjectIndex(
@@ -174,6 +222,7 @@ const ProjectsPage = () => {
   };
 
   const project = projectsData[fallProjectIndex];
+  const springProject = springProjects[springProjectIndex];
   const currentProject = currentProjectsData[currentProjectIndex];
   const pastProject = pastProjectsData[pastProjectIndex];
   
@@ -181,6 +230,22 @@ const ProjectsPage = () => {
   return (
     <div className="projects-page">
       <Navbar />
+      <h2 className="spring">Spring 2023 Highlights</h2>
+      <h2>{springProject.title}</h2>
+      <img
+        className="project_snapshot"
+        src={springProject.image}
+        alt={`${springProject.title}`}
+      />
+      <p className="description">{springProject.description}</p>
+      <p>Contributors: {springProject.contributors}</p>
+      <a href={springProject.repo} target="_blank" rel="noopener noreferrer">
+        <button className="github-btn">GitHub Repo</button>
+      </a>
+      <button onClick={handleSpringNextProject}>Next Project</button>
+
+      <br />
+      <hr></hr>
       <h2 className="fall">Fall 2023 Highlights</h2>
       <h2>{project.title}</h2>
       <img

@@ -4,9 +4,17 @@
     text-align: center;
     padding: 20px;
   }
+  .spring {
+    background: radial-gradient(hsl(320, 100%, 60%), hsl(30 100% 60%)) ;
+    background: conic-gradient(hsl(30, 100%, 60%), hsl(320, 100%, 60%), hsl(30, 100%, 60%)) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-top:10%;
+  }
   .fall {
-    background: radial-gradient(hsl(360 100% 60%), hsl(30 100% 60%)) fixed;
-    background: conic-gradient(hsl(350 100% 60%), hsl(30 100% 60%), hsl(360 100% 60%)) fixed;
+    background: radial-gradient(hsl(360 100% 60%), hsl(30 100% 60%)) ;
+    background: conic-gradient(hsl(350 100% 60%), hsl(30 100% 60%), hsl(360 100% 60%)) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -14,15 +22,15 @@
   }
 
   .current {
-        background: radial-gradient(hsl(100 100% 60%), hsl(200 100% 60%)) fixed;
-        background: conic-gradient(hsl(100 100% 60%), hsl(200 100% 60%), hsl(100 100% 60%)) fixed;
+        background: radial-gradient(hsl(70, 100%, 60%), hsl(345, 100%, 60%));
+        background: conic-gradient(hsl(70, 100%, 60%), hsl(308, 100%, 60%), hsl(70, 100%, 60%));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         text-align: center;
   }
   .past {
-    background: radial-gradient(hsl(300 100% 60%), hsl(200 80% 60%)) fixed;
-    background: conic-gradient(hsl(300 100% 60%), hsl(200 80% 60%), hsl(300 100% 60%)) fixed;
+    background: radial-gradient(hsl(300 100% 60%), hsl(200 80% 60%));
+    background: conic-gradient(hsl(300 100% 60%), hsl(200 80% 60%), hsl(300 100% 60%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;

@@ -13,6 +13,7 @@ import monadobarrage_avatar from "../assets/MonadoBarrage.jpeg";
 import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
+import virginia_avatar from "../assets/virginia.png";
 
 /**
  * TO ADD A MEMBER
@@ -34,26 +35,25 @@ const membersRowOneData = [
   },
   {
     "id": 2,
-    "name": "Jude Shreffler",
+    "name": "Brendan Smyers",
     "role": "Vice President",
-    "github": "https://github.com/jude-shreffler",
-    "avatar": jude_avatar,
-
+    "github": "https://github.com/b-smyers",
+    "avatar": brendan_avatar
   },
   {
     "id": 3,
-    "name": "Nathan Fout",
-    "role": "Member?",
-    "github": "https://github.com/Nathan208619",
-    "avatar": nathan_avatar,
+    "name": "Drew Tumblin",
+    "role": "Secretary",
+    "github": "https://github.com/tumblinx",
+    "avatar": drew_avatar,
 
   },
   {
     "id": 4,
-    "name": "Alex Bikowski",
-    "role": "Treasurer (hung like a horse)",
-    "github": "https://github.com/AlexBikowski20",
-    "avatar": alex_avatar,
+    "name": "MonadoBarrage",
+    "role": "Treasurer",
+    "github": "https://github.com/MonadoBarrage",
+    "avatar": monadobarrage_avatar,
   }
   // Add more members as needed
 ];
@@ -76,16 +76,16 @@ const membersRowTwoData = [
   },
   {
     "id": 3,
-    "name": "MonadoBarrage",
-    "role": "Member",
-    "github": "https://github.com/MonadoBarrage",
-    "avatar": monadobarrage_avatar,
+    "name": "Alex Bikowski",
+    "role": "Member (hung like a horse)",
+    "github": "https://github.com/AlexBikowski20",
+    "avatar": alex_avatar,
 
   },
   {
     "id": 4,
     "name": "Owen Turnbull",
-    "role": "Member",
+    "role": "Vegas Insider",
     "github": "https://github.com/SoahLi",
     "avatar": owen_avatar,
   },
@@ -94,18 +94,18 @@ const membersRowTwoData = [
 
 const membersRowThreeData = [
   {
-    "id": 1,
-    "name": "Brendan Smyers",
+    "id":1,
+    "name": "Jude Shreffler",
     "role": "Member",
-    "github": "https://github.com/b-smyers",
-    "avatar": brendan_avatar
+    "github": "https://github.com/jude-shreffler",
+    "avatar": jude_avatar,
   },
   {
     "id": 2,
-    "name": "Drew Tumblin",
-    "role": "Member",
-    "github": "https://github.com/tumblinx",
-    "avatar": drew_avatar,
+    "name": "Nathan Fout",
+    "role": "Alumni?",
+    "github": "https://github.com/Nathan208619",
+    "avatar": nathan_avatar,
   },
   {
     "id": 3,
@@ -123,7 +123,17 @@ const membersRowThreeData = [
   },
   // Add more members as needed
 ];
+const membersRowFourData = [
+  {
+    "id":1,
+    "name": "Virginia Dickens",
+    "role": "Member",
+    "github": "https://github.com/VP-2",
+    "avatar": virginia_avatar,
+  },
 
+  // Add more members as needed
+];
 const MembersPage = () => {
   const [members, setMembers] = useState(membersRowOneData);
   const [membersTwo, setMembersTwo] = useState(membersRowTwoData);
@@ -146,7 +156,7 @@ const MembersPage = () => {
                 <h3 className="member-card-header">{member.name}</h3>
                 <p>{member.role}</p>
                 <a href={member.github} target="_blank" rel="noopener noreferrer">
-                  GitHub Profile
+                  GitHub
                 </a>
               </div>
             </div>
@@ -160,7 +170,7 @@ const MembersPage = () => {
                 <h3 className="member-card-header">{member.name}</h3>
                 <p>{member.role}</p>
                 <a href={member.github} target="_blank" rel="noopener noreferrer">
-                  GitHub Profile
+                  GitHub 
                 </a>
               </div>
             </div>
@@ -174,7 +184,21 @@ const MembersPage = () => {
                 <h3 className="member-card-header">{member.name}</h3>
                 <p>{member.role}</p>
                 <a href={member.github} target="_blank" rel="noopener noreferrer">
-                  GitHub Profile
+                  GitHub 
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="member-cards">
+          {membersRowFourData.map((member) => (
+            <div key={member.id} className="member-card">
+              <img src={member.avatar} alt={`${member.name}'s avatar`} />
+              <div>
+                <h3 className="member-card-header">{member.name}</h3>
+                <p>{member.role}</p>
+                <a href={member.github} target="_blank" rel="noopener noreferrer">
+                  GitHub
                 </a>
               </div>
             </div>
