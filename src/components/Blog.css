@@ -1,0 +1,23 @@
+.blog-background{
+background-color: beige;
+background: conic-gradient(beige, rgb(196, 173, 173), beige);
+
+color:black;
+border-radius: 10%;
+padding-top: 1px;
+padding-bottom: 20px;
+}
+
+.blog-title{
+    background: conic-gradient(hsl(214, 100%, 60%), hsl(171, 100%, 60%), hsl(214, 100%, 60%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.blog-image{
+    width:85%;
+    max-height: 400px;
+}
+
+.blog-description{
+    margin-bottom:20px;
+}

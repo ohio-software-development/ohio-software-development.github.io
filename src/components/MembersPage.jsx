@@ -29,7 +29,7 @@ const membersRowOneData = [
   {
     "id": 1,
     "name": "Brady Phelps",
-    "role": "President",
+    "role": "President / Unc",
     "github": "https://github.com/bp-2",
     "avatar": brady_avatar,
   },
@@ -77,7 +77,7 @@ const membersRowTwoData = [
   {
     "id": 3,
     "name": "Alex Bikowski",
-    "role": "Member (hung like a horse)",
+    "role": "Member (**** **** a *****)",
     "github": "https://github.com/AlexBikowski20",
     "avatar": alex_avatar,
 

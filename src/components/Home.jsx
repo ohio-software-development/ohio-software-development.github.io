@@ -20,9 +20,9 @@ const HomePage = () => {
             <a href="https://github.com/ohio-software-development">GitHub</a>
           </p>
           <p>
-            Join us on GroupMe:{" "}
-            <a href="https://web.groupme.com/join_group/90280088/Dn3xfp80">
-              GroupMe
+            Follow our Instagram:{" "}
+            <a href="https://www.instagram.com/ou_sdc/">
+              Instagram
             </a>
           </p>
           <p>
