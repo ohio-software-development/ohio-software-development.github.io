@@ -115,7 +115,7 @@ const membersRowThreeData = [
     "avatar": jansen_avatar,
   },
   {
-    "id": 7,
+    "id": 4,
     "name": "Owen Salyer",
     "role": "Member",
     "github": "https://github.com/osalyer02",
@@ -131,6 +131,13 @@ const membersRowFourData = [
     "github": "https://github.com/VP-2",
     "avatar": virginia_avatar,
   },
+  {
+    "id":1,
+    "name": "blank",
+    "role": "Member",
+    "github": "blank",
+    "avatar": {},
+  }
 
   // Add more members as needed
 ];
