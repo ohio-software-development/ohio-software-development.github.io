@@ -137,6 +137,13 @@ const membersRowFourData = [
     "role": "Member",
     "github": "blank",
     "avatar": {},
+  },
+  {
+    "id":3,
+    "name": "blank",
+    "role": "Member",
+    "github": "blank",
+    "avatar": {},
   }
 
   // Add more members as needed
