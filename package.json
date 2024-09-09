@@ -5,7 +5,7 @@
   "homepage": "https://ohio-software-development.github.io/",
   "type": "module",
   "scripts": {
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
@@ -28,6 +28,6 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "gh-pages": "^6.1.1",
-    "vite": "^5.0.8"
+    "vite": "^5.4.3"
   }
 }

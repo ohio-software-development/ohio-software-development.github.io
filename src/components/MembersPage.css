@@ -10,6 +10,7 @@
   }
   .full-page{
     height: 1300px;
+    width: 85vw;
   }
   .member-cards {
     display: flex;
@@ -17,7 +18,6 @@
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
-    
   }
   
   .member-card {
