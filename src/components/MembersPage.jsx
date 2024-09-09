@@ -17,15 +17,13 @@ import virginia_avatar from "../assets/virginia.png";
 
 /**
  * TO ADD A MEMBER
- * Please add your information to the membersRowData, and make sure to not have more than 4 users in a row.
- * IF row is full, fill out next row.
- * IF next row does not exist, follow the format below to add a new one!
+ * Copy the previous member entry and add your new information!
+ * Many other members use the "role" as a nickname!
+ * (Optional) Upload a profile picture in the 'assets' folder and link it above.
  */
 
-
-
 // Define user data directly within the file
-const membersRowOneData = [
+const memberData = [
   {
     "id": 1,
     "name": "Brady Phelps",
@@ -54,20 +52,16 @@ const membersRowOneData = [
     "role": "Treasurer",
     "github": "https://github.com/MonadoBarrage",
     "avatar": monadobarrage_avatar,
-  }
-  // Add more members as needed
-];
-
-const membersRowTwoData = [
+  },
   {
-    "id": 1,
+    "id": 5,
     "name": "Josh Marusek",
     "role": "Member",
     "github": "https://github.com/sustainmain",
     "avatar": josh_avatar,
   },
   {
-    "id": 2,
+    "id": 6,
     "name": "Eric Jurina",
     "role": "Jack Of All Trades Developer",
     "github": "https://github.com/EJ0258",
@@ -75,7 +69,7 @@ const membersRowTwoData = [
 
   },
   {
-    "id": 3,
+    "id": 7,
     "name": "Alex Bikowski",
     "role": "Member (**** **** a *****)",
     "github": "https://github.com/AlexBikowski20",
@@ -83,56 +77,49 @@ const membersRowTwoData = [
 
   },
   {
-    "id": 4,
+    "id": 8,
     "name": "Owen Turnbull",
     "role": "Vegas Insider",
     "github": "https://github.com/SoahLi",
     "avatar": owen_avatar,
   },
-  // Add more members as needed
-];
-
-const membersRowThreeData = [
   {
-    "id":1,
+    "id": 9,
     "name": "Jude Shreffler",
     "role": "Member",
     "github": "https://github.com/jude-shreffler",
     "avatar": jude_avatar,
   },
   {
-    "id": 2,
+    "id": 10,
     "name": "Nathan Fout",
     "role": "Alumni?",
     "github": "https://github.com/Nathan208619",
     "avatar": nathan_avatar,
   },
   {
-    "id": 3,
+    "id": 11,
     "name": "Jansen Craft",
     "role": "Faculty Consult",
     "github": "https://github.com/jansen-craft",
     "avatar": jansen_avatar,
   },
   {
-    "id": 4,
+    "id": 12,
     "name": "Owen Salyer",
     "role": "Member",
     "github": "https://github.com/osalyer02",
     "avatar": owensal_avatar,
   },
-  // Add more members as needed
-];
-const membersRowFourData = [
   {
-    "id":1,
+    "id": 13,
     "name": "Virginia Dickens",
     "role": "Member",
     "github": "https://github.com/VP-2",
     "avatar": virginia_avatar,
   },
   {
-    "id":2,
+    "id": 14,
     "name": "blank",
     "role": "Member",
     "github": "blank",
@@ -142,11 +129,6 @@ const membersRowFourData = [
   // Add more members as needed
 ];
 const MembersPage = () => {
-  const [members, setMembers] = useState(membersRowOneData);
-  const [membersTwo, setMembersTwo] = useState(membersRowTwoData);
-  const [membersThree, setMembersThree] = useState(membersRowThreeData)
-
-
   return (
     <div>
       <Navbar />
@@ -156,49 +138,7 @@ const MembersPage = () => {
         </div>
 
         <div className="member-cards">
-          {members.map((member) => (
-            <div key={member.id} className="member-card">
-              <img src={member.avatar} alt={`${member.name}'s avatar`} />
-              <div>
-                <h3 className="member-card-header">{member.name}</h3>
-                <p>{member.role}</p>
-                <a href={member.github} target="_blank" rel="noopener noreferrer">
-                  GitHub
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="member-cards">
-          {membersTwo.map((member) => (
-            <div key={member.id} className="member-card">
-              <img src={member.avatar} alt={`${member.name}'s avatar`} />
-              <div>
-                <h3 className="member-card-header">{member.name}</h3>
-                <p>{member.role}</p>
-                <a href={member.github} target="_blank" rel="noopener noreferrer">
-                  GitHub 
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="member-cards">
-          {membersThree.map((member) => (
-            <div key={member.id} className="member-card">
-              <img src={member.avatar} alt={`${member.name}'s avatar`} />
-              <div>
-                <h3 className="member-card-header">{member.name}</h3>
-                <p>{member.role}</p>
-                <a href={member.github} target="_blank" rel="noopener noreferrer">
-                  GitHub 
-                </a>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="member-cards">
-          {membersRowFourData.map((member) => (
+          {memberData.map((member) => (
             <div key={member.id} className="member-card">
               <img src={member.avatar} alt={`${member.name}'s avatar`} />
               <div>
