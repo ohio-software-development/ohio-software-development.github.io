@@ -41,7 +41,7 @@ const memberData = [
   {
     "id": 3,
     "name": "Drew Tumblin",
-    "role": "Secretary",
+    "role": "Treasurer",
     "github": "https://github.com/tumblinx",
     "avatar": drew_avatar,
 
@@ -49,7 +49,7 @@ const memberData = [
   {
     "id": 4,
     "name": "MonadoBarrage",
-    "role": "Treasurer",
+    "role": "Secretary",
     "github": "https://github.com/MonadoBarrage",
     "avatar": monadobarrage_avatar,
   },
