@@ -14,7 +14,9 @@ import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
-import tristan_avatar from "../assets/tristan.jpeg"
+import tristan_avatar from "../assets/tristan.jpeg";
+import sea_panda from "../assets/sea_panda.jpg";
+
 
 /**
  * TO ADD A MEMBER
@@ -128,10 +130,10 @@ const memberData = [
   },
   {
     "id": 15,
-    "name": "blank",
+    "name": "Sarah Abdelsamed",
     "role": "Member",
-    "github": "blank",
-    "avatar": {},
+    "github": "https://github.com/SeaPandaCodes",
+    "avatar": sea_panda,
   }
 
   // Add more members as needed
