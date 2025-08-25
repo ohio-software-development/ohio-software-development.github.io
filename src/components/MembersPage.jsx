@@ -27,39 +27,39 @@ import tristan_avatar from "../assets/tristan.jpeg"
 const memberData = [
   {
     "id": 1,
-    "name": "Brady Phelps",
-    "role": "President / Unc",
-    "github": "https://github.com/bp-2",
-    "avatar": brady_avatar,
-  },
-  {
-    "id": 2,
     "name": "Brendan Smyers",
-    "role": "Vice President",
+    "role": "President",
     "github": "https://github.com/b-smyers",
     "avatar": brendan_avatar
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "Drew Tumblin",
-    "role": "Treasurer",
+    "role": "Vice President",
     "github": "https://github.com/tumblinx",
     "avatar": drew_avatar,
 
   },
   {
-    "id": 4,
-    "name": "MonadoBarrage",
-    "role": "Secretary",
+    "id": 3,
+    "name": "Michael Tan",
+    "role": "Treasurer",
     "github": "https://github.com/MonadoBarrage",
     "avatar": monadobarrage_avatar,
   },
   {
-    "id": 5,
+    "id": 4,
     "name": "Josh Marusek",
     "role": "Member",
     "github": "https://github.com/sustainmain",
     "avatar": josh_avatar,
+  },
+  {
+    "id": 5,
+    "name": "Brady Phelps",
+    "role": "Former President / Unc",
+    "github": "https://github.com/bp-2",
+    "avatar": brady_avatar,
   },
   {
     "id": 6,
