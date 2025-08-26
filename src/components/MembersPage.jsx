@@ -14,7 +14,8 @@ import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
-import tristan_avatar from "../assets/tristan.jpeg"
+import tristan_avatar from "../assets/tristan.jpeg";
+import freaky_avatar from "../assets/Freaky.jpeg"
 
 /**
  * TO ADD A MEMBER
@@ -128,12 +129,18 @@ const memberData = [
   },
   {
     "id": 15,
+    "name": "Francisco Sanchez",
+    "role": "Member",
+    "github": "https://github.com/T0ddB0t",
+    "avatar": freaky_avatar,
+  },
+  {
+    "id": 16,
     "name": "blank",
     "role": "Member",
     "github": "blank",
     "avatar": {},
   }
-
   // Add more members as needed
 ];
 const MembersPage = () => {
