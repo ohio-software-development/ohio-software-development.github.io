@@ -132,7 +132,14 @@ const memberData = [
     "role": "Member",
     "github": "blank",
     "avatar": {},
-  }
+  },
+  {
+    "id": 16,
+    "name": "Dhruv Patel",
+    "role": "Member",
+    "github": "https://github.com/dhruv-patel0",
+    "avatar": null
+  },
 
   // Add more members as needed
 ];
