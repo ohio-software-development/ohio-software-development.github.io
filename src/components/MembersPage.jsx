@@ -15,6 +15,7 @@ import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
 import tristan_avatar from "../assets/tristan.jpeg"
+import isaac_avatar from "../assets/isaac_avatar.jpeg"
 
 /**
  * TO ADD A MEMBER
@@ -128,6 +129,13 @@ const memberData = [
   },
   {
     "id": 15,
+    "name": "Isaac Lanning",
+    "role": "Member",
+    "github": "https://github.com/il225",
+    "avatar": isaac_avatar,
+  },
+  {
+    "id": 16,
     "name": "blank",
     "role": "Member",
     "github": "blank",
