@@ -128,9 +128,9 @@ const memberData = [
   },
   {
     "id": 15,
-    "name": "blank",
-    "role": "Member",
-    "github": "blank",
+    "name": "Jonathan Haralson",
+    "role": "MECHE member",
+    "github": "https://github.com/Raintailedfox",
     "avatar": {},
   }
 
