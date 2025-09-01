@@ -139,7 +139,7 @@ const memberData = [
     "name": "Dhruv Patel",
     "role": "Member",
     "github": "https://github.com/dhruv-patel0",
-    "avatar": null
+    "avatar": {}
   },
   {
     "id": 17,
@@ -147,6 +147,13 @@ const memberData = [
     "role": "member",
     "github": "https://github.com/NathanBeas",
     "avatar": NathanB_avatar,
+  },
+  {
+    "id": 18,
+    "name": "Isaac Lanning",
+    "role": "member",
+    "github": "https://github.com/il225",
+    "avatar": {},
   }
 
   // Add more members as needed
