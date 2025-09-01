@@ -132,6 +132,13 @@ const memberData = [
     "role": "Member",
     "github": "blank",
     "avatar": {},
+  },
+  {
+    "id": 16,
+    "name": "Nathan Beasley",
+    "role": "member",
+    "github": "https://github.com/NathanBeas",
+    "avatar": {}
   }
 
   // Add more members as needed
