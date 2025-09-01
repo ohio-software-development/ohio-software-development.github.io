@@ -15,6 +15,7 @@ import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
 import tristan_avatar from "../assets/tristan.jpeg"
+import NathanB_avatar from "../assets/Nathan.jpeg"
 
 /**
  * TO ADD A MEMBER
@@ -138,7 +139,7 @@ const memberData = [
     "name": "Nathan Beasley",
     "role": "member",
     "github": "https://github.com/NathanBeas",
-    "avatar": {}
+    "avatar": NathanB_avatar,
   }
 
   // Add more members as needed
