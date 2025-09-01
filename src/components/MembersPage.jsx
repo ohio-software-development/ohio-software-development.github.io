@@ -136,6 +136,13 @@ const memberData = [
   },
   {
     "id": 16,
+    "name": "Dhruv Patel",
+    "role": "Member",
+    "github": "https://github.com/dhruv-patel0",
+    "avatar": null
+  },
+  {
+    "id": 17,
     "name": "Nathan Beasley",
     "role": "member",
     "github": "https://github.com/NathanBeas",
