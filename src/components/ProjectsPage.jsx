@@ -1,22 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Navbar from "./NavBar";
-import "./ProjectsPage.css";
-import colortheory from "../assets/CTF.png";
-import bobcatCoin from "../assets/bobcat_coin.jpeg";
-import plexServer from "../assets/plex_server.png";
-import clubRebrand from "../assets/club_rebrand.png";
-import garduino from "../assets/garduino.png";
-import tic80 from "../assets/tic80.png";
-import fitness from "../assets/fitness.png";
-import calculator from "../assets/calculator.png";
-import oucare from "../assets/oucare.png";
-import googleTUI from "../assets/googleTui.png";
-import socialTUI from "../assets/socialTui.png";
+import "../styles/ProjectsPage.css";
 import styled from 'styled-components';
-import openAY from "../assets/openAY.png";
-import localMarket from "../assets/localMarket.jpeg";
-import clubSite from "../assets/clubSite.png";
-import rbx from "../assets/rbx.jpeg";
+import projectsJson from "../data/projects.json";
+
+const { projectsData, springProjects, currentProjectsData, pastProjectsData } = projectsJson;
 
 const StyledList = styled.ul`
   list-style-type: none;
@@ -35,167 +23,6 @@ const StyledLink = styled.a`
   text-decoration: none;
   color: #007bff; /* Adjust the color as needed */
 `;
-const projectsData = [
-  {
-    id: 1,
-    title: "Mobile Jewelry App",
-    description:
-      "This project was done in collaboration with ColorTheoryVintage, a small business out of Columbus Ohio, to make a jewelry resale platform for small businesses. The developers used ReactNative and Firebase. Capabilities include texting system, uploading products, and more.",
-    image: colortheory,
-    contributors: "SoahLi & BP-2",
-    repo: "https://github.com/ohio-software-development/Color-Theory-Vintage",
-  },
-  {
-    id: 2,
-    title: "BobcatCoin Foundations",
-    description:
-      "This project evaluated methods and capabilities for implementing a digital cryptocurrency system into the club economy. This system can be used for things like club voting, awards, and more.",
-    image: bobcatCoin,
-    contributors: "EJ0258",
-    repo: "https://github.com/ohio-software-development/BobcatCoin",
-  },
-  {
-    id: 3,
-    title: "Plex Server",
-    description:
-      "Launched club Plex server on old Macbook for the weekly club movies. This system contains movies, music, literature, and more. Club members were granted authenticated access to the server.",
-    image: plexServer, // Add the image file name or URL
-    contributors: "GLYurek3",
-    repo: "http://10.233.76.90:8096/",
-  },
-  {
-    id: 4,
-    title: "Club Website Model",
-    description:
-      "This project revamped the club website. The site had new functionality which utilized the GitHub API to dynamically showcase progress on each of the clubs members and repos. This was done using Angular.",
-    image: clubRebrand, // Add the image file name or URL
-    contributors: "KalebDemaline",
-    repo: "https://github.com/ohio-software-development/ClubWebsite",
-  },
-  {
-    id: 5,
-    title: "Launching Garduino",
-    description:
-      "Purchased necessary materials and began work on construction of an automated gardening system using an Arduino board.",
-    image: garduino, // Add the image file name or URL
-    contributors: "jude-shreffler",
-    repo: "https://github.com/ohio-software-development/garduino",
-  },
-
-  // Add more projects as needed
-];
-
-const springProjects = [
-  {
-  id: 1,
-  title: "Open Web AY",
-  description:
-    "This tool is designed to be an open source alternative to web accessibility. The tool is a free option largely aimed at underrepresented portions of the internet (solo developers, small businesses, etc), who want a lightweight, free, and customizable option. This project was started as a solo submission to BlossomHack 2024 and won \"Best Overall\". It currently has around 2,000 downloads.",
-  image: openAY,
-  contributors: "BP-2",
-  repo: "https://github.com/BP-2/OpenWebAY",
-},
-{
-  id: 2,
-  title: "Local Market, Athens",
-  description:
-    "Project launched to combine online shopping with small businesses. The project creates an online shop for all local Athens goods that users can shop at similar to an Amazon. The site aims to compete with Amazon and Walmart while giving the power to small businesses.",
-  image: localMarket,
-  contributors: "BP-2",
-  repo: "https://github.com/ohio-software-development/LocalMarket/tree/brady",
-},
-{
-  id: 3,
-  title: "Club Website Remodel",
-  description:
-    "Rebranded and revitalized club website.",
-  image: clubSite, 
-  contributors: "BP-2 & others",
-  repo: "https://github.com/ohio-software-development/ohio-software-development.github.io",
-},
-{
-  id: 4,
-  title: "Roblox Game Jam",
-  description:
-    "Game jam focused on introduction to game design fundamentals and Lua scripting through Roblox Studio. Three games were created and posted on Roblox servers.",
-  image: rbx, // Add the image file name or URL
-  contributors: "Hosted by b-smyers",
-  repo: "https://github.com/ohio-software-development/ClubWebsite",
-},
-
-];
-const currentProjectsData = [
-  {
-    id: 1,
-    title: "TIC-80",
-    description:
-      "TIC-80 is a tiny computer where you write programs in Lua and use the built in game editor to make fun 8-bit games.",
-    image: tic80,
-    contributors: "",
-    repo: "https://github.com/ohio-software-development/tic-80-template",
-  },
-  {
-    id: 2,
-    title: "Fitness WatchOS",
-    description:
-      "In this project you will gamify fitness by writing a WatchOS application in Swift.",
-    image: fitness,
-    contributors: "",
-    repo: "https://github.com/ohio-software-development/Fitness-Watch-App",
-  },
-  {
-    id: 3,
-    title: "Grade Calculator",
-    description:
-      "This project includes the development of a tool used for calculating needed and expected grades. Potential users include professors and students.",
-    image: calculator, // Add the image file name or URL
-    contributors: "",
-    repo: "https://github.com/ohio-software-development",
-  },
-  {
-    id: 4,
-    title: "Garduino",
-    description:
-      "With preliminary work completed for the Garduino, the project is now looking for students who are interested in joining the group. You will be using an Arduino to automate gardening systems.",
-    image: garduino, // Add the image file name or URL
-    contributors: "jude-shreffler",
-    repo: "https://github.com/ohio-software-development/garduino",
-  },
-
-  // Add more projects as needed
-];
-
-const pastProjectsData = [
-  {
-    id: 1,
-    title: "OUCare",
-    description:
-      "OUCare was a project submitted for a Hackathon that centered around healthcare accessibility on college campuses. The project went through several iterations, using React and Vew for front-end. It also used a Twilio text bot client, OpenStreetMaps API, Google Maps API, and more.",
-    image: oucare,
-    contributors: "BP-2, jude-shreffler, and GLYurek3",
-    repo: "https://github.com/ohio-software-development/OUCare",
-  },
-  {
-    id: 2,
-    title: "Social Media TUI",
-    description:
-      "This project created an interface for a social media run through the terminal. This was created using Rust.",
-    image: socialTUI,
-    contributors: "BP-2 and jude-shreffler",
-    repo: "https://github.com/ohio-software-development/Fitness-Watch-App",
-  },
-  {
-    id: 3,
-    title: "GSuite TUI",
-    description:
-      "This project used Rust and Python to create a terminal user interface for the Google suite. This allowed users to utilize the google suite from their terminal. This included reading and writing emails, checking calendars, and more.",
-    image: googleTUI, // Add the image file name or URL
-    contributors: "BP-2, MonadoBarrage, Alex Bikowski, and PrestonRembis",
-    repo: "https://github.com/ohio-software-development",
-  },
-
-  // Add more projects as needed
-];
 
 const ProjectsPage = () => {
   const [fallProjectIndex, setFallProjectIndex] = useState(0);
@@ -234,7 +61,7 @@ const ProjectsPage = () => {
       <h2>{springProject.title}</h2>
       <img
         className="project_snapshot"
-        src={springProject.image}
+        src={`/assets/${springProject.image}`}
         alt={`${springProject.title}`}
       />
       <p className="description">{springProject.description}</p>
@@ -250,7 +77,7 @@ const ProjectsPage = () => {
       <h2>{project.title}</h2>
       <img
         className="project_snapshot"
-        src={project.image}
+        src={`/assets/${project.image}`}
         alt={`${project.title}`}
       />
       <p className="description">{project.description}</p>
@@ -266,7 +93,7 @@ const ProjectsPage = () => {
       <h2>{currentProject.title}</h2>
       <img
         className="project_snapshot"
-        src={currentProject.image}
+        src={`/assets/${currentProject.image}`}
         alt={`${currentProject.title}`}
       />
       <p className="description">{currentProject.description}</p>
@@ -300,7 +127,7 @@ const ProjectsPage = () => {
       <h2>{pastProject.title}</h2>
       <img
         className="project_snapshot"
-        src={pastProject.image}
+        src={`/assets/${pastProject.image}`}
         alt={`${pastProject.title}`}
       />
       <p className="description">{pastProject.description}</p>

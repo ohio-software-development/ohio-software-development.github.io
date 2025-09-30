@@ -1,0 +1,131 @@
+[
+ {
+    "id": 1,
+    "name": "Brendan Smyers",
+    "role": "President",
+    "github": "https://github.com/b-smyers",
+    "avatar": "Brendan-Smyers.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Drew Tumblin",
+    "role": "Vice President",
+    "github": "https://github.com/tumblinx",
+    "avatar": "drew_avatar.jpg"
+
+  },
+  {
+    "id": 3,
+    "name": "Michael Tan",
+    "role": "Treasurer",
+    "github": "https://github.com/MonadoBarrage",
+    "avatar": "MonadoBarrage.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Josh Marusek",
+    "role": "Member",
+    "github": "https://github.com/sustainmain",
+    "avatar": "josh.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Brady Phelps",
+    "role": "Former President / Unc",
+    "github": "https://github.com/bp-2",
+    "avatar": "brady_avatar.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Eric Jurina",
+    "role": "Jack Of All Trades Developer",
+    "github": "https://github.com/EJ0258",
+    "avatar": "eric.jpeg"
+
+  },
+  {
+    "id": 7,
+    "name": "Alex Bikowski",
+    "role": "Member (**** **** a *****)",
+    "github": "https://github.com/AlexBikowski20",
+    "avatar": "alex_avatar.jpeg"
+
+  },
+  {
+    "id": 8,
+    "name": "Owen Turnbull",
+    "role": "Vegas Insider",
+    "github": "https://github.com/SoahLi",
+    "avatar": "owen.png"
+  },
+  {
+    "id": 9,
+    "name": "Jude Shreffler",
+    "role": "Member",
+    "github": "https://github.com/jude-shreffler",
+    "avatar": "jude_avatar.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Nathan Fout",
+    "role": "Alumni?",
+    "github": "https://github.com/Nathan208619",
+    "avatar": "nathan_avatar.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Jansen Craft",
+    "role": "Faculty Consult",
+    "github": "https://github.com/jansen-craft",
+    "avatar": "jansen.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Owen Salyer",
+    "role": "Member",
+    "github": "https://github.com/osalyer02",
+    "avatar": "owens.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Virginia Dickens",
+    "role": "Member",
+    "github": "https://github.com/VP-2",
+    "avatar": "virginia.png"
+  },
+  {
+    "id": 14,
+    "name": "Tristan Wellman",
+    "role": "Member",
+    "github": "https://github.com/TristanWellman",
+    "avatar": "tristan.jpeg"
+  },
+  {
+    "id": 15,
+    "name": "Jonathan Haralson",
+    "role": "MECHE member",
+    "github": "https://github.com/Raintailedfox",
+    "avatar": {}
+  },
+  {
+    "id": 16,
+    "name": "Dhruv Patel",
+    "role": "Member",
+    "github": "https://github.com/dhruv-patel0",
+    "avatar": {}
+  },
+  {
+    "id": 17,
+    "name": "Nathan Beasley",
+    "role": "member",
+    "github": "https://github.com/NathanBeas",
+    "avatar": "Nathan.jpeg"
+  },
+  {
+    "id": 18,
+    "name": "Isaac Lanning",
+    "role": "member",
+    "github": "https://github.com/il225",
+    "avatar": {}
+  }
+]

@@ -22,11 +22,11 @@ article {
       hsl(100 100% 60%)
     ) fixed; */
     color: white;
-    min-block-size: 200vh;
-    min-inline-size: 100%;
-    padding: 5vmin;
+    min-height: 150vh;
+    min-width: 100%;
+    padding: 0;
     box-sizing: border-box;
-    display: grid;
+    display: block;
     place-content: center;
     font-family: system-ui;
     font-size: min(200%, 5vmin);

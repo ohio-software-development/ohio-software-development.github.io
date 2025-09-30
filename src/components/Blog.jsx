@@ -1,8 +1,7 @@
-import React from "react";
 import Navbar from "./NavBar";
 import BlogCard from "./BlogCard";
-import "./Blog.css";
-import "./Home.css";
+import "../styles/Blog.css";
+import "../styles/Home.css";
 import nathan from "../assets/nathan.png";
 
 const Blog = () => {

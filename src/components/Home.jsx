@@ -1,6 +1,5 @@
-import React from "react";
 import Navbar from "./NavBar";
-import "./Home.css";
+import "../styles/Home.css";
 
 const HomePage = () => {
   return (
@@ -29,7 +28,7 @@ const HomePage = () => {
             Connect on Discord:{" "}
             <a href="https://discord.gg/wxKM2QJU3d">Discord</a>
           </p>
-          <p>Meeting Location: ARC 212</p>
+          <p>Meeting Location: ARC 101</p>
           <p>Meeting Times: Every Monday from 6:00pm-7:00pm</p>
         </div>
 
@@ -52,7 +51,7 @@ const HomePage = () => {
           height="450"
           loading="lazy"
           frameBorder="0"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         </div>
         <div className = "visibleMobile">
@@ -74,7 +73,7 @@ const HomePage = () => {
           height="250"
           loading="lazy"
           frameBorder="0"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
         </div>
       </section>
