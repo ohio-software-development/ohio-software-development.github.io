@@ -6,11 +6,16 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
-
+    padding-bottom: 40px;
   }
   .full-page{
-    height: 1300px;
+    height: 1700px;
     width: 85vw;
+    margin: 0 auto;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .member-cards {
     display: flex;
@@ -18,6 +23,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    width: 100%;
   }
   
   .member-card {
@@ -28,6 +34,9 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .member-card .member-card-header{
     color: black;

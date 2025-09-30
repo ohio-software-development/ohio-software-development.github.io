@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./NavBar";
-import "./Blog.css";
-import "./Home.css";
+import "../styles/Blog.css";
+import "../styles/Home.css";
 
 const BlogCard = (props) => {
     return(
