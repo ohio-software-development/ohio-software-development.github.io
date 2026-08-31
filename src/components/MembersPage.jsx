@@ -16,6 +16,7 @@ import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
 import tristan_avatar from "../assets/tristan.jpeg"
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import il225_avatar from "../assets/il225.png"
 
 /**
  * TO ADD A MEMBER
@@ -44,7 +45,7 @@ const memberData = [
   {
     "id": 3,
     "name": "Michael Tan",
-    "role": "Treasurer",
+    "role": "Former Treasurer",
     "github": "https://github.com/MonadoBarrage",
     "avatar": monadobarrage_avatar,
   },
@@ -151,9 +152,9 @@ const memberData = [
   {
     "id": 18,
     "name": "Isaac Lanning",
-    "role": "member",
+    "role": "Treasurer",
     "github": "https://github.com/il225",
-    "avatar": {},
+    "avatar": il225_avatar,
   }
 
   // Add more members as needed
