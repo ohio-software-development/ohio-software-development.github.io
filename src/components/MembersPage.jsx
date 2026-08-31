@@ -17,6 +17,9 @@ import virginia_avatar from "../assets/virginia.png";
 import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg";
 import il225_avatar from "../assets/il225.png";
+import anthony_avatar from "../assets/anthony-speicher.jpg";
+import tristan_avatar from "../assets/tristan.jpeg";
+import NathanB_avatar from "../assets/Nathan.jpeg";
 import abram_avatar from "../assets/abram.jpg";
 
 /**
@@ -165,6 +168,13 @@ const memberData = [
     "github": "https://github.com/abramceastham-byte",
     "avatar": abram_avatar,
   }
+  {
+    "id": 24,
+    "name": "Anthony Speicher",
+    "role": "Veep Vorp",
+    "github": "https://github.com/anthonyspeicher",
+    "avatar": anthony_avatar,
+  },
 
   // Add more members as needed
 ];
