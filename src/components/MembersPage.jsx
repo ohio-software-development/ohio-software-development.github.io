@@ -14,10 +14,16 @@ import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
-import tristan_avatar from "../assets/tristan.jpeg"
+import il225_avatar from "../assets/il225.png";
+import anthony_avatar from "../assets/anthony-speicher.jpg";
+import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg"
 import ethanc_pfp from "../assets/ethanc_pfp.jpg"
-
+import andrew_avatar from "../assets/shrocks.jpeg"
+import saracha_avatar from "../assets/spiderman.jpg"
+import Chayse_avatar from "../assets/Chayse_avatar.jpg"
+import nate_avatar from "../assets/nclegos.jpeg"
+import abram_avatar from "../assets/abram.jpg";
 /**
  * TO ADD A MEMBER
  * Copy the previous member entry and add your new information!
@@ -27,25 +33,25 @@ import ethanc_pfp from "../assets/ethanc_pfp.jpg"
 
 // Define user data directly within the file
 const memberData = [
-  {
+   {
     "id": 1,
-    "name": "Brendan Smyers",
-    "role": "President",
-    "github": "https://github.com/b-smyers",
-    "avatar": brendan_avatar
-  },
-  {
-    "id": 2,
     "name": "Drew Tumblin",
-    "role": "Vice President",
+    "role": "President",
     "github": "https://github.com/tumblinx",
     "avatar": drew_avatar,
 
   },
   {
+    "id": 2,
+    "name": "Brendan Smyers",
+    "role": "GONE (former pres aka unc)",
+    "github": "https://github.com/b-smyers",
+    "avatar": brendan_avatar
+  },
+  {
     "id": 3,
     "name": "Michael Tan",
-    "role": "Treasurer",
+    "role": "Former Treasurer",
     "github": "https://github.com/MonadoBarrage",
     "avatar": monadobarrage_avatar,
   },
@@ -140,7 +146,7 @@ const memberData = [
     "name": "Dhruv Patel",
     "role": "Member",
     "github": "https://github.com/dhruv-patel0",
-    "avatar": {}
+    "avatar": {},
   },
   {
     "id": 17,
@@ -152,9 +158,9 @@ const memberData = [
   {
     "id": 18,
     "name": "Isaac Lanning",
-    "role": "member",
+    "role": "Treasurer",
     "github": "https://github.com/il225",
-    "avatar": {},
+    "avatar": il225_avatar,
   },
   {
     "id": 19,
@@ -162,8 +168,49 @@ const memberData = [
     "role": "member",
     "github": "https://github.com/EthanC306",
     "avatar": ethanc_pfp,
+  },
+  {
+    "id": 25
+    "name": "Andrew Selinsky"
+    "role": "Outreach Director"
+    "github": "https://github.com/AndrewS1007"
+    "avatar": andrew_avatar
+  },
+  {
+    "id": 25
+    "name": "Sara Chaffee",
+    "role": "member",
+    "github":"https://github.com/saracha08",
+    "avatar": saracha_avatar,
+  },
+  {
+    "id": 21,
+    "name": "Chayse Collins",
+    "role": "member",
+    "github": "https://github.com/ChayseCollins",
+    "avatar": Chayse_avatar,
+  },
+  {
+    "id": 22,
+    "name": "Nate Cleaver",
+    "role": "Member",
+    "github": "https://github.com/natenz2007",
+    "avatar": nate_avatar,
+  },
+  {
+    "id": 23,
+    "name": "Abram",
+    "role": "Member",
+    "github": "https://github.com/abramceastham-byte",
+    "avatar": abram_avatar,
+  },
+  {
+    "id": 24,
+    "name": "Anthony Speicher",
+    "role": "Veep Vorp",
+    "github": "https://github.com/anthonyspeicher",
+    "avatar": anthony_avatar,
   }
-
   // Add more members as needed
 ];
 const MembersPage = () => {
