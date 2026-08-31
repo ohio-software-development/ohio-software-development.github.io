@@ -19,6 +19,7 @@ import NathanB_avatar from "../assets/Nathan.jpeg";
 import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg"
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import Chayse_avatar from "../assets/Chayse_avatar.jpg"
 import nate_avatar from "../assets/nclegos.jpeg"
 import abram_avatar from "../assets/abram.jpg";
 /**
@@ -143,7 +144,7 @@ const memberData = [
     "name": "Dhruv Patel",
     "role": "Member",
     "github": "https://github.com/dhruv-patel0",
-    "avatar": {}
+    "avatar": {},
   },
   {
     "id": 17,
@@ -160,6 +161,11 @@ const memberData = [
     "avatar": {},
   },
   {
+    "id": 21,
+    "name": "Chayse Collins",
+    "role": "member",
+    "github": "https://github.com/ChayseCollins",
+    "avatar": Chayse_avatar,
     "id": 22,
     "name": "Nate Cleaver",
     "role": "Member",
