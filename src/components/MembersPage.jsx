@@ -178,7 +178,7 @@ const memberData = [
     "avatar": andrew_avatar
   },
   {
-    "id": 25
+    "id": 25,
     "name": "Sara Chaffee",
     "role": "member",
     "github":"https://github.com/saracha08",
