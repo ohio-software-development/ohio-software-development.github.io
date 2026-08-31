@@ -18,6 +18,7 @@ import il225_avatar from "../assets/il225.png";
 import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import thomas_avatar from "../assets/thomas.jpeg"
 import ethanc_pfp from "../assets/ethanc_pfp.jpg"
 import andrew_avatar from "../assets/shrocks.jpeg"
 import saracha_avatar from "../assets/spiderman.jpg"
@@ -170,10 +171,10 @@ const memberData = [
     "avatar": ethanc_pfp,
   },
   {
-    "id": 25
-    "name": "Andrew Selinsky"
-    "role": "Outreach Director"
-    "github": "https://github.com/AndrewS1007"
+    "id": 25,
+    "name": "Andrew Selinsky",
+    "role": "Outreach Director",
+    "github": "https://github.com/AndrewS1007",
     "avatar": andrew_avatar
   },
   {
@@ -196,6 +197,13 @@ const memberData = [
     "role": "Member",
     "github": "https://github.com/natenz2007",
     "avatar": nate_avatar,
+  },
+  {
+    "id": 20,
+    "name": "Thomas Perkins",
+    "role": "member",
+    "github": "https://github.com/tperkins26",
+    "avatar": thomas_avatar.jpg,
   },
   {
     "id": 23,
