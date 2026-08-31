@@ -20,7 +20,7 @@ import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg"
 import thomas_avatar from "../assets/thomas.jpg"
 import ethanc_pfp from "../assets/ethanc_pfp.jpg"
-import andrew_avatar from "../assets/shrocks.jpeg"
+import andrew_avatar from "../assets/shrocks.jpg"
 import saracha_avatar from "../assets/spiderman.jpg"
 import Chayse_avatar from "../assets/Chayse_avatar.jpg"
 import nate_avatar from "../assets/nclegos.jpeg"
