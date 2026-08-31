@@ -14,12 +14,11 @@ import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
-import tristan_avatar from "../assets/tristan.jpeg";
-import NathanB_avatar from "../assets/Nathan.jpeg";
 import il225_avatar from "../assets/il225.png";
 import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import ethanc_pfp from "../assets/ethanc_pfp.jpg"
 import andrew_avatar from "../assets/shrocks.jpeg"
 import saracha_avatar from "../assets/spiderman.jpg"
 import Chayse_avatar from "../assets/Chayse_avatar.jpg"
@@ -161,7 +160,14 @@ const memberData = [
     "name": "Isaac Lanning",
     "role": "Treasurer",
     "github": "https://github.com/il225",
-     "avatar": il225_avatar,
+    "avatar": il225_avatar,
+  },
+  {
+    "id": 19,
+    "name": "Ethan Claybourn",
+    "role": "member",
+    "github": "https://github.com/EthanC306",
+    "avatar": ethanc_pfp,
   },
   {
     "id": 25
