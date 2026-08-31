@@ -20,8 +20,12 @@ import il225_avatar from "../assets/il225.png";
 import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg";
+import tristan_avatar from "../assets/tristan.jpeg"
+import NathanB_avatar from "../assets/Nathan.jpeg"
+import saracha_avatar from "../assets/spiderman.jpg"
+import Chayse_avatar from "../assets/Chayse_avatar.jpg"
+import nate_avatar from "../assets/nclegos.jpeg"
 import abram_avatar from "../assets/abram.jpg";
-
 /**
  * TO ADD A MEMBER
  * Copy the previous member entry and add your new information!
@@ -31,20 +35,20 @@ import abram_avatar from "../assets/abram.jpg";
 
 // Define user data directly within the file
 const memberData = [
-  {
+   {
     "id": 1,
-    "name": "Brendan Smyers",
-    "role": "President",
-    "github": "https://github.com/b-smyers",
-    "avatar": brendan_avatar
-  },
-  {
-    "id": 2,
     "name": "Drew Tumblin",
-    "role": "Vice President",
+    "role": "President",
     "github": "https://github.com/tumblinx",
     "avatar": drew_avatar,
 
+  },
+  {
+    "id": 2,
+    "name": "Brendan Smyers",
+    "role": "GONE (former pres aka unc)",
+    "github": "https://github.com/b-smyers",
+    "avatar": brendan_avatar
   },
   {
     "id": 3,
@@ -144,7 +148,7 @@ const memberData = [
     "name": "Dhruv Patel",
     "role": "Member",
     "github": "https://github.com/dhruv-patel0",
-    "avatar": {}
+    "avatar": {},
   },
   {
     "id": 17,
@@ -159,7 +163,27 @@ const memberData = [
     "role": "Treasurer",
     "github": "https://github.com/il225",
     "avatar": il225_avatar,
-    "avatar": {},
+  },
+  {
+    "id": 25
+    "name": "Sara Chaffee",
+    "role": "member",
+    "github":"https://github.com/saracha08",
+    "avatar": saracha_avatar,
+  },
+  {
+    "id": 21,
+    "name": "Chayse Collins",
+    "role": "member",
+    "github": "https://github.com/ChayseCollins",
+    "avatar": Chayse_avatar,
+  },
+  {
+    "id": 22,
+    "name": "Nate Cleaver",
+    "role": "Member",
+    "github": "https://github.com/natenz2007",
+    "avatar": nate_avatar,
   },
   {
     "id": 23,
@@ -167,7 +191,7 @@ const memberData = [
     "role": "Member",
     "github": "https://github.com/abramceastham-byte",
     "avatar": abram_avatar,
-  }
+  },
   {
     "id": 24,
     "name": "Anthony Speicher",
@@ -175,7 +199,6 @@ const memberData = [
     "github": "https://github.com/anthonyspeicher",
     "avatar": anthony_avatar,
   },
-
   // Add more members as needed
 ];
 const MembersPage = () => {
