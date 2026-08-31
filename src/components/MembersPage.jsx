@@ -16,6 +16,7 @@ import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
 import tristan_avatar from "../assets/tristan.jpeg"
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import abram_avatar from "../assets/abram.jpg";
 
 /**
  * TO ADD A MEMBER
@@ -154,6 +155,13 @@ const memberData = [
     "role": "member",
     "github": "https://github.com/il225",
     "avatar": {},
+  },
+  {
+    "id": 23,
+    "name": "Abram",
+    "role": "Member",
+    "github": "https://github.com/abramceastham-byte",
+    "avatar": abram_avatar,
   }
 
   // Add more members as needed
