@@ -14,10 +14,13 @@ import owensal_avatar from "../assets/owens.jpg";
 import josh_avatar from "../assets/josh.jpeg";
 import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
+import tristan_avatar from "../assets/tristan.jpeg";
+import NathanB_avatar from "../assets/Nathan.jpeg";
+import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg"
 import NathanB_avatar from "../assets/Nathan.jpeg"
 import nate_avatar from "../assets/nclegos.jpeg"
-
+import abram_avatar from "../assets/abram.jpg";
 /**
  * TO ADD A MEMBER
  * Copy the previous member entry and add your new information!
@@ -162,7 +165,19 @@ const memberData = [
     "role": "Member",
     "github": "https://github.com/natenz2007",
     "avatar": nate_avatar,
+    "id": 23,
+    "name": "Abram",
+    "role": "Member",
+    "github": "https://github.com/abramceastham-byte",
+    "avatar": abram_avatar,
   }
+  {
+    "id": 24,
+    "name": "Anthony Speicher",
+    "role": "Veep Vorp",
+    "github": "https://github.com/anthonyspeicher",
+    "avatar": anthony_avatar,
+  },
 
   // Add more members as needed
 ];
