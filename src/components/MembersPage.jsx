@@ -16,6 +16,7 @@ import brendan_avatar from "../assets/Brendan-Smyers.jpg";
 import virginia_avatar from "../assets/virginia.png";
 import tristan_avatar from "../assets/tristan.jpeg"
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import saracha_avatar from "../assets/spiderman.jpg"
 
 /**
  * TO ADD A MEMBER
@@ -149,12 +150,13 @@ const memberData = [
     "avatar": NathanB_avatar,
   },
   {
-    "id": 18,
-    "name": "Isaac Lanning",
+    "id": 25,
+    "name": "Sara Chaffee",
     "role": "member",
-    "github": "https://github.com/il225",
-    "avatar": {},
+    "github":"https://github.com/saracha08",
+    "avatar": saracha_avatar,
   }
+
 
   // Add more members as needed
 ];
