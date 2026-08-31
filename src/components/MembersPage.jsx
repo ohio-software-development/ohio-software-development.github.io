@@ -19,9 +19,8 @@ import NathanB_avatar from "../assets/Nathan.jpeg";
 import il225_avatar from "../assets/il225.png";
 import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg";
-import NathanB_avatar from "../assets/Nathan.jpeg";
-import tristan_avatar from "../assets/tristan.jpeg"
 import NathanB_avatar from "../assets/Nathan.jpeg"
+import andrew_avatar from "../assets/shrocks.jpeg"
 import saracha_avatar from "../assets/spiderman.jpg"
 import Chayse_avatar from "../assets/Chayse_avatar.jpg"
 import nate_avatar from "../assets/nclegos.jpeg"
@@ -162,7 +161,14 @@ const memberData = [
     "name": "Isaac Lanning",
     "role": "Treasurer",
     "github": "https://github.com/il225",
-    "avatar": il225_avatar,
+     "avatar": il225_avatar,
+  },
+  {
+    "id": 25
+    "name": "Andrew Selinsky"
+    "role": "Outreach Director"
+    "github": "https://github.com/AndrewS1007"
+    "avatar": andrew_avatar
   },
   {
     "id": 25
@@ -198,7 +204,7 @@ const memberData = [
     "role": "Veep Vorp",
     "github": "https://github.com/anthonyspeicher",
     "avatar": anthony_avatar,
-  },
+  }
   // Add more members as needed
 ];
 const MembersPage = () => {
