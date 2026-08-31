@@ -18,7 +18,7 @@ import il225_avatar from "../assets/il225.png";
 import anthony_avatar from "../assets/anthony-speicher.jpg";
 import tristan_avatar from "../assets/tristan.jpeg";
 import NathanB_avatar from "../assets/Nathan.jpeg"
-import thomas_avatar from "../assets/thomas.jpeg"
+import thomas_avatar from "../assets/thomas.jpg"
 import ethanc_pfp from "../assets/ethanc_pfp.jpg"
 import andrew_avatar from "../assets/shrocks.jpeg"
 import saracha_avatar from "../assets/spiderman.jpg"
