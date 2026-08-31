@@ -23,7 +23,7 @@ import ethanc_pfp from "../assets/ethanc_pfp.jpg"
 import andrew_avatar from "../assets/shrocks.jpg"
 import saracha_avatar from "../assets/spiderman.jpg"
 import Chayse_avatar from "../assets/Chayse_avatar.jpg"
-import nate_avatar from "../assets/nclegos.jpeg"
+import nate_avatar from "../assets/nclegos.jpg"
 import abram_avatar from "../assets/abram.jpg";
 /**
  * TO ADD A MEMBER
